@@ -5,11 +5,9 @@ Home: https://sourceforge.net/projects/cif2cell/
 
 Package license: GNU GPLv3
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cif2cell-feedstock/blob/master/LICENSE.txt)
 
 Summary: CIF2Cell is a tool to generate the geometrical setup for various electronic structure codes from a CIF (Crystallographic Information Framework) file.
-
-
 
 Current build status
 ====================
