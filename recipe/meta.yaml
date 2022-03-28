@@ -1,17 +1,17 @@
 {% set name = "cif2cell" %}
-{% set version = "1.2.10" %}
+{% set version = "2.0.0a3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://sourceforge.net/projects/cif2cell/files/{{ name }}-{{ version }}.tar.gz
-  sha256: 2268a2d6d26650433a1c5e51c98e400cf92e458036879e231088555d75e3e8bf
+  url: https://github.com/torbjornbjorkman/cif2cell/archive/refs/tags/{{ version }}.tar.gz
+  sha256: 906bfde60ba6bab7c2e35cac0a3b010061a4339c36bcb5b723e63691ec3148af
 
 build:
   skip: True  # [py3k]
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
