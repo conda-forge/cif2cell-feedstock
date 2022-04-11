@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pycifrw
   run:
-    - python
+    - python >=3.6
     - pycifrw
 
 test:
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://sourceforge.net/projects/cif2cell/
-  license: GNU GPLv3
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
   summary: 'CIF2Cell is a tool to generate the geometrical setup for various electronic structure codes from a CIF (Crystallographic Information Framework) file.'
