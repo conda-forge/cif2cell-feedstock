@@ -1,11 +1,11 @@
-About cif2cell
-==============
+About cif2cell-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cif2cell-feedstock/blob/main/LICENSE.txt)
 
 Home: https://sourceforge.net/projects/cif2cell/
 
-Package license: GNU GPLv3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cif2cell-feedstock/blob/main/LICENSE.txt)
+Package license: GPL-3.0-only
 
 Summary: CIF2Cell is a tool to generate the geometrical setup for various electronic structure codes from a CIF (Crystallographic Information Framework) file.
 
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ltalirz](https://github.com/ltalirz/)
 * [@npavlovikj](https://github.com/npavlovikj/)
 
