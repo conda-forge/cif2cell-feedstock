@@ -1,5 +1,5 @@
 {% set name = "cif2cell" %}
-{% set version = "2.0.0a3" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/torbjornbjorkman/cif2cell/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 906bfde60ba6bab7c2e35cac0a3b010061a4339c36bcb5b723e63691ec3148af
+  sha256: 9840ef94b37285115a62a8336d7cbb9edaa0144f0f975097f3250351deb162d4
 
 build:
   noarch: python
